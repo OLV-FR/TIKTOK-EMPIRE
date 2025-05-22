@@ -1,0 +1,9 @@
+streamlit
+vosk
+sounddevice
+requests
+numpy
+ffmpeg-python
+moviepy
+requests
+
