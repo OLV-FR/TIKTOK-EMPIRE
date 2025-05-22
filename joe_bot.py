@@ -142,7 +142,8 @@ def process_video(video_path):
 
 if __name__ == "__main__":
     import sys
-    video_input = "video_source.mp4"
-    if len(sys.argv) > 1:
-        video_input = sys.argv[1]
-    process_video(video_input)
+    if len(sys.argv) < 2:
+        print("❌ Erreur : tu dois fournir le chemin d'une vidéo en argument.")
+        print("👉 Exemple : python joe_bot.py ma_video.mp4")
+    else:
+        process_video(sys.argv[1])
