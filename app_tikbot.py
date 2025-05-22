@@ -3,8 +3,6 @@ import tempfile
 from pathlib import Path
 from joe_bot import process_video
 
-# 🔧 Augmenter la taille max de téléversement à 1 Go
-st.set_option('server.maxUploadSize', 1024)
 st.set_page_config(page_title="TikBot Empire", page_icon="🎬")
 st.title("🎬 TikBot Empire - Analyse intelligente de vidéos TikTok")
 
