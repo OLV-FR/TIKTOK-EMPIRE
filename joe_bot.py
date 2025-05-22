@@ -1,4 +1,5 @@
 import os
+os.environ["PATH"] += os.pathsep + "/opt/homebrew/bin"  # remplace si ton chemin est différent
 import wave
 import subprocess
 import json
