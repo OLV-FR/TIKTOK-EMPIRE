@@ -119,6 +119,7 @@ def cut_video_clips(video_path, segments, output_dir):
 # === PIPELINE PRINCIPALE ===
 
 def process_video(video_path):
+    print(f"[DEBUG] Vidéo reçue : {video_path}")
     print(f"🎞️ Fichier vidéo : {video_path}")
     print("🎧 Extraction audio...")
     audio_file = extract_audio(video_path)
