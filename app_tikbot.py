@@ -15,8 +15,8 @@ if uploaded_video:
         temp_video_path = tmp_file.name
 
     st.success("Vidéo téléversée avec succès !")
-
-st.text(f"🧪 Fichier temporaire utilisé : {temp_video_path}") #enlever si necessaire 
+    st.text(f"🧪 Fichier temporaire utilisé : {temp_video_path}") #enlever si necessaire 
+    
     if st.button("Lancer l'analyse"):
         with st.spinner("🔍 Analyse de la vidéo en cours..."):
             try:
