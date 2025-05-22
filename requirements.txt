@@ -3,7 +3,7 @@ vosk
 sounddevice
 requests
 numpy
-ffmpeg-python
+ffmpeg
 moviepy
 requests
 
